@@ -23,12 +23,21 @@ td {
     height: 133px;
     border: 5px solid black;
     position: relative;
+    cursor: pointer;
+}
+
+td:hover {
+    background-color: rgba(26, 221, 0, 0.03);
 }
 
 .img_cross_circle {
     position: absolute;
-    width: 90px;
-    height: 90px;
-    bottom: 30px;
-    left: 30px;
+    width: 80px;
+    height: 80px;
+    bottom: 26px;
+    left: 26px;
+}
+
+.d_none {
+    display: none;
 }
