@@ -1,3 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.player_panel {
+    display: flex;
+    margin: 64px 0;
+    font-size: 32px;
+}
+
+.player_panel div {
+    display: flex;
+    background-color: rgb(249, 245, 245);
+    margin: 0 16px;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+.player_inaktive {
+    opacity: 0.3;
+}
+
+.player_panel img {
+    width: 30px;
+    height: 30px;
+    margin: 0 16px;
+    margin-top: 4px;
+}
+
 table {
     border-collapse: collapse;
 }
