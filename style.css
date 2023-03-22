@@ -27,7 +27,7 @@ body {
     border-radius: 20px;
 }
 
-/* player panel */
+/* Player panel */
 .player_panel {
     display: flex;
     margin: 64px 0;
@@ -55,7 +55,7 @@ body {
     margin-top: 4px;
 }
 
-/* playing field */
+/* Playing field */
 table {
     border-collapse: collapse;
     margin-bottom: 50px;
@@ -101,7 +101,7 @@ td:hover {
     display: none;
 }
 
-/* lines (horizontal, vertical, diagonal */
+/* Lines (horizontal, vertical, diagonal */
 .horizontal_line {
     position: absolute;
     left: 94px;
@@ -110,8 +110,7 @@ td:hover {
     background-color: rgba(169, 161, 161, 0.5);
     transform: scaleX(1);
     transition: transform 400ms ease-in-out;
-    /*     z-index: -10;
- */
+    z-index: -10;
 }
 
 .transform_vertical {
@@ -134,7 +133,7 @@ td:hover {
     transition: transform 400ms ease-in-out;
 }
 
-/* endscreen */
+/* Endscreen */
 .container_endscreen {
     position: relative;
     width: 600px;
@@ -167,4 +166,13 @@ td:hover {
     border-radius: 10px;
     color: white;
     font-size: 30px;
+}
+
+/* @media */
+@media(max-width: 600px) {
+    body {
+        width: 100lvh;
+        transform: scale(0.9);
+        transform-origin: 0 0;
+    }
 }
