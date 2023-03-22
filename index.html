@@ -8,45 +8,61 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
+
 <body>
-    <div class="player_panel">
-        <div class="" id="player_1">Player 1 <img src="./images/circle.svg"></div>
-        <div class="player_inaktive" id="player_2">Player 2 <img src="./images/cross.svg"></div>
+
+    <div class="container">
+    <div class="frame">
+        <div class="player_panel">
+            <div class="" id="player_1">Player 1 <img src="./images/circle.svg"></div>
+            <div class="player_inaktive" id="player_2">Player 2 <img src="./images/cross.svg"></div>
+        </div>
+
+        <table>
+            <tr>
+                <td onclick="select_field(0)"><img id="cross_0" class="img_cross_circle d_none" src="./images/cross.svg">
+                                            <img id="circle_0" class="img_cross_circle d_none" src="./images/circle.svg">
+                </td>
+                <td onclick="select_field(1)"><img id="cross_1" class="img_cross_circle d_none" src="./images/cross.svg">
+                                            <img id="circle_1" class="img_cross_circle d_none" src="./images/circle.svg">
+                </td>
+                <td onclick="select_field(2)"><img id="cross_2" class="img_cross_circle d_none" src="./images/cross.svg">
+                                            <img id="circle_2" class="img_cross_circle d_none" src="./images/circle.svg">
+                </td>
+            </tr>
+            <tr>
+                <td onclick="select_field(3)"><img id="cross_3" class="img_cross_circle d_none" src="./images/cross.svg">
+                                            <img id="circle_3" class="img_cross_circle d_none" src="./images/circle.svg">
+                </td>
+                <td onclick="select_field(4)"><img id="cross_4" class="img_cross_circle d_none" src="./images/cross.svg">
+                                            <img id="circle_4" class="img_cross_circle d_none" src="./images/circle.svg">
+                </td>
+                <td onclick="select_field(5)"><img id="cross_5" class="img_cross_circle d_none" src="./images/cross.svg">
+                                            <img id="circle_5" class="img_cross_circle d_none" src="./images/circle.svg">
+                </td>
+            </tr>
+            <tr>
+                <td onclick="select_field(6)"><img id="cross_6" class="img_cross_circle d_none" src="./images/cross.svg">
+                                            <img id="circle_6" class="img_cross_circle d_none" src="./images/circle.svg">
+                </td>
+                <td onclick="select_field(7)"><img id="cross_7" class="img_cross_circle d_none" src="./images/cross.svg">
+                                            <img id="circle_7" class="img_cross_circle d_none" src="./images/circle.svg">
+                </td>
+                <td onclick="select_field(8)"><img id="cross_8" class="img_cross_circle d_none" src="./images/cross.svg">
+                                            <img id="circle_8" class="img_cross_circle d_none" src="./images/circle.svg">
+                </td>
+            </tr>
+        </table>
+
+        <div id="line_0" class="horizontal_line" style="top: 350px;"></div>
+        <div id="line_1" class="horizontal_line" style="top: 491px;"></div>
+        <div id="line_2" class="horizontal_line" style="top: 632px;"></div>
+        <div id="line_3" class="horizontal_line transform_vertical" style="left: -66px;"></div>
+        <div id="line_4" class="horizontal_line transform_vertical" style="left: 74px;"></div>
+        <div id="line_5" class="horizontal_line transform_vertical" style="left: 213px;"></div>
+        <div id="line_6" class="horizontal_line transform_diagonal_left" style="width: 444px;"></div>
+        <div id="line_7" class="horizontal_line transform_diagonal_right" style="width: 444px;"></div>
+    </div>    
     </div>
-    <table>
-        <tr>
-            <td onclick="select_field(0)"><img id="cross_0" class="img_cross_circle d_none" src="./images/cross.svg">
-                                        <img id="circle_0" class="img_cross_circle d_none" src="./images/circle.svg">
-            </td>
-            <td onclick="select_field(1)"><img id="cross_1" class="img_cross_circle d_none" src="./images/cross.svg">
-                                        <img id="circle_1" class="img_cross_circle d_none" src="./images/circle.svg">
-            </td>
-            <td onclick="select_field(2)"><img id="cross_2" class="img_cross_circle d_none" src="./images/cross.svg">
-                                        <img id="circle_2" class="img_cross_circle d_none" src="./images/circle.svg">
-            </td>
-        </tr>
-        <tr>
-            <td onclick="select_field(3)"><img id="cross_3" class="img_cross_circle d_none" src="./images/cross.svg">
-                                        <img id="circle_3" class="img_cross_circle d_none" src="./images/circle.svg">
-            </td>
-            <td onclick="select_field(4)"><img id="cross_4" class="img_cross_circle d_none" src="./images/cross.svg">
-                                        <img id="circle_4" class="img_cross_circle d_none" src="./images/circle.svg">
-            </td>
-            <td onclick="select_field(5)"><img id="cross_5" class="img_cross_circle d_none" src="./images/cross.svg">
-                                        <img id="circle_5" class="img_cross_circle d_none" src="./images/circle.svg">
-            </td>
-        </tr>
-        <tr>
-            <td onclick="select_field(6)"><img id="cross_6" class="img_cross_circle d_none" src="./images/cross.svg">
-                                        <img id="circle_6" class="img_cross_circle d_none" src="./images/circle.svg">
-            </td>
-            <td onclick="select_field(7)"><img id="cross_7" class="img_cross_circle d_none" src="./images/cross.svg">
-                                        <img id="circle_7" class="img_cross_circle d_none" src="./images/circle.svg">
-            </td>
-            <td onclick="select_field(8)"><img id="cross_8" class="img_cross_circle d_none" src="./images/cross.svg">
-                                        <img id="circle_8" class="img_cross_circle d_none" src="./images/circle.svg">
-            </td>
-        </tr>
-    </table>
 </body>
 </html>
