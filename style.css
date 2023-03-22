@@ -8,7 +8,7 @@ body {
 
 .container {
     width: 600px;
-    height: 100vh;
+    height: 652px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -104,32 +104,33 @@ td:hover {
 /* lines (horizontal, vertical, diagonal */
 .horizontal_line {
     position: absolute;
-    left: 73px;
+    left: 94px;
     width: 350px;
     height: 5px;
     background-color: rgba(169, 161, 161, 0.5);
-    transform: scaleX(0.0);
+    transform: scaleX(1);
     transition: transform 400ms ease-in-out;
-    z-index: -10;
+    /*     z-index: -10;
+ */
 }
 
 .transform_vertical {
-    transform: rotate(90deg) scaleX(0.0);
-    top: 491px;
+    transform: rotate(90deg) scaleX(1);
+    top: 360px;
     transition: transform 400ms ease-in-out;
 }
 
 .transform_diagonal_left {
-    transform: rotate(45deg) scaleX(0.0);
-    top: 491px;
-    left: 30px;
+    transform: rotate(45deg) scaleX(1);
+    top: 360px;
+    left: 48px;
     transition: transform 400ms ease-in-out;
 }
 
 .transform_diagonal_right {
-    transform: rotate(-45deg) scaleX(0.0);
-    top: 491px;
-    left: 27px;
+    transform: rotate(-45deg) scaleX(1);
+    top: 360px;
+    left: 46px;
     transition: transform 400ms ease-in-out;
 }
 
@@ -137,7 +138,7 @@ td:hover {
 .container_endscreen {
     position: relative;
     width: 600px;
-    height: 100vh;
+    height: 652px;
     display: flex;
     flex-direction: column;
     justify-content: center;

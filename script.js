@@ -79,7 +79,5 @@ function check_for_winner() {
         AUDIO_WIN.play();
         game_over = true;
         setTimeout(()=>{window.location.href="./endscreen.html"}, 2000);
-
-/*         window.location.href="./endscreen.html";
- */    }
+    }
 }
